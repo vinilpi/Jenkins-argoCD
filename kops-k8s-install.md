@@ -402,7 +402,7 @@ Run the following command to get the nodeport
 kubectl get svc -n argocd
 ```
 
-Open your browser and go to `https://localhost:8080` or http://<public-ip>:<nodeport>
+Open your browser and go to https://localhost:8080 or http://<public-ip>:<nodeport>
 
 The default username is admin, and to retrieve the password, use:
 ```
