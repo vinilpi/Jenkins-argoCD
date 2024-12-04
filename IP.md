@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Hello World') {
             steps {
-                // This will print "Hello World" to the console
+                // This will print "Hello World, How are you" to the console
                 echo 'Hello World'
             }
         }
